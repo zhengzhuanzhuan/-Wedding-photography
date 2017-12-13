@@ -1,0 +1,105 @@
+
+.content {
+    height: 275px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.content img {
+    vertical-align: top;
+    margin-top: 65px;
+}
+
+.back {
+    height: 1200px;
+    background: url("images/tmp_r11_c4.jpg");
+    margin-bottom: 30px;
+}
+.w {
+    position: relative;
+}
+
+.main_l {
+    width: 345px;
+    position: absolute;
+    top: 780px;
+    text-align: center;
+}
+
+.main_l h3 {
+    font-size: 20px;
+}
+
+.main_l h6 {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+/*.im img {*/
+    /*position: absolute;*/
+    /*top: 145px;*/
+    /*left: 54px;*/
+/*}*/
+
+.back ul {
+    width: 800px;
+}
+
+.back li {
+    float: left;
+    margin-left: 18px;
+    margin-top: 55px;
+    position: relative;
+}
+
+.back .flower {
+    position: absolute;
+    top: 19px;
+    left: 3px;
+    width: 87px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+}
+
+.back .flower:hover {
+    border: 2px solid #ad8841;
+}
+
+.back h4 {
+    margin-top: -88px;
+    margin-left: 126px;
+}
+
+.back p {
+    margin-left: 126px;
+}
+
+/*�ֲ�ͼСԲȦ*/
+.circle ul {
+    width: 500px;
+    margin-left: 350px;
+}
+
+.circle li {
+    float: left;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    width: 33px;
+    /*left:50%;*/
+    border-radius: 50%;
+    margin-left: 16px;
+    background-color: #333333;
+    color: #fff;
+    font-size: 16px;
+}
+
+.circle .first {
+    background-color: #ad8841;
+}
+
+.circle .last {
+    width: 83px;
+    height: 33px;
+    border-radius: 33px;
+}

@@ -1,0 +1,704 @@
+/*顶部导航栏*/
+.top {
+    height: 140px;
+    background-image: url(../images/tmp_r1_c2.png);
+}
+
+.top_nav {
+    margin: 0 auto;
+    width: 1260px;
+    height: 125px;
+    position: relative;
+}
+
+.wxdl {
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1004px;
+    top: 93px;
+    z-index: 1000;
+    text-indent: -2000px;
+}
+
+.wbdl {
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1053px;
+    top: 93px;
+    z-index: 1000;
+    text-indent: -2000px;
+}
+.wxewm{
+    display: none;
+    position: absolute;
+    left: 970px;
+    top:134px;
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/tmp_r13_c12.jpg);
+    z-index: 1000;
+
+}
+.wbewm{
+    display: none;
+    position: absolute;
+    left:1010px;
+    top:134px;
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/tmp_r13_c10.jpg);
+    z-index: 1000;
+
+}
+
+/*导航栏图片*/
+.top_nav h1 a {
+    display: inline-block;
+    background: url("../images/logo.png");
+    margin-top: 25px;
+    text-indent: -2000px;
+    width: 305px;
+    height: 82px;
+}
+
+/*导航栏北京*/
+.select {
+    position: absolute;
+    left: 315px;
+    top: 55px;
+    z-index: 1000;
+}
+
+.select dl a {
+    display: inline-block;
+    width: 58px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    text-indent: 6px;
+}
+
+.select dl a b {
+    font-size: 13px;
+    font-weight: normal;
+
+}
+
+.select dl i {
+    display: inline-block;
+    width: 7px;
+    height: 6px;
+    background-image: url(../images/dot01.png);
+    position: relative;
+    right: 18px;
+    top: -1px;
+}
+
+.select dd {
+    display: none;
+    width: 177px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 2px #ccc;
+}
+
+#select-block a {
+    display: inline-block;
+    width: 59px;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: top;
+    color: #757c85;
+}
+
+#select-block a:hover {
+    background-color: rgb(176, 135, 70);
+    color: #fff;
+}
+
+/*导航栏登录*/
+.dl {
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    background: url(../images/wbwx.png) left no-repeat;
+    position: absolute;
+    left: 870px;
+    top: 90px;
+}
+
+.dl ul li {
+    float: left;
+    padding-right: 20px;
+
+}
+
+.dl ul:first-child {
+    padding-left: 230px;
+}
+
+/*导航栏菜单*/
+.top_menu {
+    display: inline-block;
+    width: 832px;
+    height: 54px;
+    line-height: 54px;
+    margin-top: 35px;
+    margin-left: 25px;
+    position: absolute;
+    left: 390px;
+    top: 4px;
+}
+
+.top_menu ul {
+    height: 54px;
+    background: url(../images/nav.png) -2px -4px;
+
+}
+
+.top_menu li {
+    float: left;
+    width: 118px;
+    height: 54px;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.top_menu li a {
+    display: inline-block;
+    width: 118px;
+    height: 48px;
+    color: #fff;
+}
+
+#aixin {
+    border-bottom: 1px solid #fff;
+    background: url(../images/lujing.png) 45px 0 no-repeat;
+}
+
+.hover {
+    color: #B08746;
+    border-bottom: 1px solid #fff;
+    background: url(../images/lujing.png) 45px 0 no-repeat;
+}
+
+/*广告栏*/
+.banner {
+    width: 1349px;
+    height: 600px;
+    position: relative;
+}
+
+.screen {
+    width: 1349px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.screen li {
+    width: 1349px;
+    height: 600px;
+    overflow: hidden;
+    float: left
+}
+
+.screen ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 11520px;
+
+}
+
+.banner ol {
+    position: absolute;
+    left: 535px;
+    bottom: 50px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.banner ol li {
+    float: left;
+    width: 50px;
+    height: 6px;
+    margin-right: 5px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner ol li.current {
+    background-color: powderblue;
+}
+
+.banner ul li img {
+    margin-left: -285px;
+}
+
+#arr {
+    display: none;
+}
+
+#arr span {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -20px;
+    background: #000;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '黑体';
+    font-size: 30px;
+    color: #fff;
+    opacity: 0.3;
+    border: 1px solid #fff;
+}
+
+#arr #right {
+    right: 5px;
+    left: auto;
+}
+
+/*作品展示*/
+.works {
+    height: 250px;
+    background: url(../images/tmp_r11_c4.jpg) repeat;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.works_content {
+    margin-top: 10px;
+    width: 100%;
+    height: 230px;
+    background: url(../images/works.png) left no-repeat;
+
+}
+
+.works_content p {
+    display: inline-block;
+    color: #333;
+    font-size: 12px;
+    padding-top: 110px;
+    padding-left: 215px;
+}
+
+.kepian {
+    display: inline-block;
+    width: 570px;
+    height: 50px;
+}
+
+.kepian ul {
+    top: 10px;
+    left: 40px;
+}
+
+.kepian ul li {
+    float: left;
+}
+
+.kepian ul li a {
+    display: inline-block;
+    color: #666;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #BBB;
+    padding: 0 44px;
+    margin: 0 7px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#brown {
+    background-color: #b08846;
+    color: #fff;
+}
+
+.kepian ul li a:hover {
+    border: 1px solid #b08846;
+
+}
+
+.zuimei {
+    display: inline-block;
+    width: 1180px;
+    height: 52px;
+    position: relative;
+}
+
+.zuimei ul {
+    padding-left: 312px;
+    position: absolute;
+    top: 21px;
+
+}
+
+.zuimei ul li {
+    float: left;
+}
+
+.zuimei ul li a {
+    font-size: 14px;
+    color: #666;
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 5px;
+    padding: 0 12px;
+    border: 1px solid #BBB;
+    border-radius: 5px;
+}
+
+.zuimei ul li a:hover {
+    border: 1px solid #b08846;
+}
+
+#mei {
+    background-color: #b08846;
+    color: #fff;
+}
+
+/*最美客照标题*/
+.zm {
+    width: 1180px;
+    height: 41px;
+    background: url(../images/bt_1.jpg) no-repeat;
+}
+
+.zm li {
+    width: 1180px;
+    height: 41px;
+    border-bottom: 1px solid #ccc;
+}
+
+.zm h3 {
+    margin: 30px 0 0 25px;
+    color: #B08746;
+    font-size: 24px;
+
+}
+
+.zm h3 i {
+    color: #999;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+/*最美客照照片*/
+.photo ul {
+    margin-top: 15px;
+    width: 1200px;
+    overflow: hidden;
+}
+
+.photo li {
+    float: left;
+    width: 288px;
+    height: 522px;
+    margin-right: 10px;
+}
+
+.photo_top {
+    width: 288px;
+    height: 450px;
+    position: relative;
+
+}
+
+.photo_top i {
+    position: absolute;
+    width: 288px;
+    height: 450px;
+    background: url("../images/xj.png");
+    opacity: 0;
+    left: 0;
+    top: -450px;
+}
+
+.photo li a {
+    width: 288px;
+    height: 512px;
+    color: #666;
+}
+
+.photo li a:hover {
+    color: rgb(176, 135, 70);
+}
+
+.photo_bottom {
+    margin-top: 7px;
+}
+
+.photo li div p {
+    font-size: 14px;
+}
+
+.photo li div p + p {
+    font-size: 10px;
+    padding-top: 4px;
+}
+#subnav li ul li {
+    margin-top: 10px;
+    margin-left: 35px;
+    float: left;
+}
+#subnav li ul li img{
+    width: 250px;
+    height: 370px;
+}
+
+#subnav > li {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    width: 1180px;
+    border-bottom: 1px solid #ccc;
+    background: url(../images/bt_1.jpg) left top no-repeat;
+
+}
+
+#subnav li h3 {
+
+    margin-left: 25px;
+    color: #B08746;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+#subnav h3 span {
+    color: #999;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+/*飞机*/
+.feiji {
+    margin-top: 40px;
+    height: 175px;
+    background: url("../images/feiji.png") 483px 24px no-repeat;
+}
+
+.feiji a {
+    display: inline-block;
+    position: relative;
+    left: 555px;
+    top: 22px;
+    width: 70px;
+    height: 70px;
+    color: rgb(68, 68, 68);
+    padding-top: 70px;
+    padding-left: 10px;
+    box-sizing: border-box;
+
+}
+
+/*底部*/
+.bg {
+    width: 1349px;
+    height: 300px;
+    background: url("../images/bg.jpg");
+}
+
+.friendlink {
+    margin-top: -266px;
+    height: 407px;
+    position: relative;
+}
+
+.hotline {
+    width: 290px;
+    height: 181px;
+    padding-left: 28px;
+    background: url("../images/tb.png") 0 5px no-repeat;
+    box-sizing: border-box;
+    position: absolute;
+    top: 20px;
+}
+
+.hot {
+    color: #fff;
+    height: 28px;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.num {
+    height: 37px;
+    line-height: 30px;
+    padding-top: 5px;
+    font-size: 32px;
+    color: #B08746
+}
+
+.time {
+    height: 21px;
+    line-height: 10px;
+    font-size: 12px;
+    color: #B08746
+}
+
+.tel {
+    margin-top: -3px;
+    height: 28px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.qq {
+    height: 28px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.address {
+    padding-top: 9px;
+    height: 36px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.web a {
+    height: 36px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.bot {
+    width: 1180px;
+    text-align: center;
+}
+
+.code {
+    position: absolute;
+    left: 920px;
+    top: 20px;
+}
+
+.code span {
+    height: 28px;
+    line-height: 1.8;
+    background: url("../images/er.png") left no-repeat;
+    padding-left: 30px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.weibo {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.weibo a:hover p, .weixin a:hover p {
+    color: #B08746;
+}
+
+.weibo p {
+    padding-top: 5px;
+    height: 26px;
+    line-height: 26px;
+    color: #B08746;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+.weibo p + p {
+    height: 20px;
+    color: #fff;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.weibo i {
+    margin-top: 8px;
+    display: inline-block;
+    width: 28px;
+    height: 22px;
+    background: url("../images/wbwx.png") -182px 0 no-repeat;
+}
+
+.weixin {
+    margin-top: 5px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.weixin p {
+    padding-top: 5px;
+    height: 26px;
+    line-height: 26px;
+    color: #B08746;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+.weixin p + p {
+    height: 20px;
+    color: #fff;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.weixin i {
+    margin-top: 8px;
+    display: inline-block;
+    width: 28px;
+    height: 22px;
+    background: url("../images/wbwx.png") -134px 0 no-repeat;
+}
+
+.begin {
+    margin: 30px auto;
+    width: 224px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #B08746;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.begin a {
+    font-size: 20px;
+    color: #fff;
+}
+
+.kong {
+    height: 100px;
+}
+
+.copyright {
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    font-size: 12px;
+    color: #444;
+}
+
+.copyright a {
+    color: #B08746;
+}
+
+
+
+
+
+
+

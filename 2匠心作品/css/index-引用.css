@@ -1,0 +1,63 @@
+#sidebar ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    border-radius: 8px;
+    margin-top: 1px;
+}
+#sidebar{
+    position: fixed;
+    top:40%;
+    width: 400px;
+    z-index: 10000;
+}
+#sidebar ul{
+    float: left;
+}
+#sidebar .tianmao{
+    background: url(../images/praise-icon.png) no-repeat -60px -186px;
+}
+#sidebar .tianmao:hover{
+    background: url(../images/praise-icon.png) no-repeat 0 -186px;
+}
+#sidebar .weibo{
+    background: url(../images/praise-icon.png) no-repeat -60px -244px;
+}
+#sidebar .weibo:hover{
+    background: url(../images/praise-icon.png) no-repeat 0 -244px;
+}
+#sidebar .weixin{
+    background: url(../images/praise-icon.png) no-repeat -60px -302px;
+}
+#sidebar .weixin:hover{
+    background: url(../images/praise-icon.png) no-repeat 0 -302px;
+}
+#sidebar img{
+    width: 165px;
+    height: 165px;
+    display: none;
+}
+#sidebar .show{
+    display: block;
+}
+#sidebar #saybox{
+    width: 400px;
+    height: 380px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: url(../images/saybox.png) no-repeat;
+    /*display: block;*/
+}
+#sidebar #close{
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    margin-right: 5px;
+}

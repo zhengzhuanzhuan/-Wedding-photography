@@ -1,0 +1,3 @@
+﻿文件下载网址  =>  文件保存路径
+about:blank  =>  C:\Users\Administrator\Desktop\课程软件\单页扒站小工具\www.27lvpai.com\images\2a7b5ff1c5ec42208f372bae1ff45215.gif
+http://www.27lvpai.com/Public/luoma/js/fancyBox/fancybox_sprite@2x.png  =>  C:\Users\Administrator\Desktop\课程软件\单页扒站小工具\www.27lvpai.com\images\fancybox_sprite@2x.png

@@ -1,0 +1,53 @@
+html部分
+
+找到nav下的  class="nav_wbwx"  替换成下面代码
+
+        <div class="nav_wbwx">
+            <div class="nav_wb"><a href="#"></a></div>
+            <div class="nav_wbewm"></div>
+            <div class="nav_wx"><a href="#"></a></div>
+            <div class="nav_wxewm"></div>
+            <img src="images/wbwx.png" alt="">
+        </div>
+
+
+js部分  :  直接添加到index.js文件中
+
+
+
+//导航栏二维码
+$(".nav_wb>a").mouseenter(function () {
+    $(".nav_wbewm").css("display","block");
+}).mouseleave(function () {
+    $(".nav_wbewm").css("display","none");
+});
+$(".nav_wx>a").mouseenter(function () {
+    $(".nav_wxewm").css("display","block");
+}).mouseleave(function () {
+    $(".nav_wxewm").css("display","none");
+});
+
+
+
+
+
+css代码  :  直接添加index.css文件中
+
+
+
+/*导航二维码*/
+.nav_wbewm,.nav_wxewm{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 12px;
+    bottom: -118px;
+    display: none;
+}
+.nav_wbewm{
+    background: url("../images/tmp_r13_c10.jpg");
+    right: -38px;
+}
+.nav_wxewm{
+    background: url("../images/tmp_r13_c12.jpg");
+}

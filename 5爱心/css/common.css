@@ -1,0 +1,50 @@
+body,ul,ol,dl,p,h1,h2,h3,h4,h5,h6,input,button,dd,dl,dd {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial,Verdana,"Î¢ÈíÑÅºÚ","ËÎÌå";
+	color: #666;
+}
+li {
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 400;
+}
+em,i {
+	font-style: normal;
+}
+input,button,img {
+	border: 0 none;
+}
+input,button {
+	outline-style: none;
+}
+img {
+	vertical-align: middle;
+}
+a {
+	text-decoration: none;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:after {
+	content:".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+.w {
+	width: 1180px;
+	margin: 0 auto;
+}

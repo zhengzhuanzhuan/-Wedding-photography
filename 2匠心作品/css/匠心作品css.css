@@ -1,0 +1,210 @@
+/*----------广告图片-------------*/
+#box1 {
+    position: relative;
+    height: 569px;
+}
+
+#big img {
+    width: 100%;
+}
+
+#small {
+    position: absolute;
+    bottom: 110px;
+    left: 50%;
+    margin-left: -500px;
+    overflow: hidden;
+}
+
+#small ul {
+    position: absolute;
+}
+
+#small ul li {
+    float: left;
+}
+
+#small {
+    position: relative;
+    width: 1100px;
+    height: 110px;
+}
+
+#small ul li img {
+    opacity: 0.8;
+}
+
+/*-----------作品展示------------*/
+
+.works_show {
+    height: 250px;
+    background-image: url("../images/tmp_r11_c4.jpg");
+    position: relative;
+}
+
+.works_show li {
+    float: left;
+}
+
+.works_show li a {
+    font-size: 14px;
+    padding: 8px 10px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #666;
+}
+
+.works_show .theme {
+    position: absolute;
+    left: 405px;
+    top: 155px;
+}
+
+.works_show .theme_others {
+    position: absolute;
+    left: 705px;
+    top: 90px;
+}
+
+.works_show .theme_others ul li a {
+    padding: 10px 44px;
+}
+
+.works_show img {
+    margin-top: 10px;
+}
+
+/*---------展示图片-----------*/
+
+.photo {
+    width: 1182px;
+    overflow: hidden;
+}
+
+.show_photo .photo ul li {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.show_photo .photo ul li a:hover {
+    color: #b08646;
+}
+
+.show_photo .photo .del {
+    margin-right: 0px;
+}
+
+.show_photo .photo ul li div {
+    width: 288px;
+    height: 450px;
+    overflow: hidden;
+    z-index: 10;
+    position: relative;
+}
+
+.show_photo .photo ul li a .index {
+    opacity: 1;
+    width: 288px;
+    height: 450px;
+    background-image: url("../images/xj.png");
+    z-index: 10;
+    position: absolute;
+    top: -450px;
+}
+
+/*-------超链接跳转-----------*/
+.link ul {
+    width: 300px;
+    height: 50px;
+    margin-left: 470px;
+}
+
+.link ul li {
+    float: left;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #333;
+    font-size: 14px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.link ul li a {
+    color: #fff;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.link ul li a:hover {
+    background-color: #b08646;
+}
+
+.link #bgc1 {
+    background-color: #b08646;
+}
+
+/*------轮播图--------------*/
+
+#box {
+    position: relative;
+}
+
+#box .more {
+    margin: 20px 0px 20px 0px;
+}
+
+#screen {
+    width: 1020px;
+    height: 404px;
+    overflow: hidden;
+    position: relative;
+}
+
+#screen ul {
+    width: 3100px;
+    height: 300px;
+    position: absolute;
+}
+
+.all ul li {
+    float: left;
+}
+
+.all ul li img {
+    width: 200px;
+    height: 300px;
+    border: 2px solid #fff;
+}
+
+#arr {
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #b08646;
+    opacity: 0.5;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    right: 50px;
+    cursor: pointer;
+    font-weight: 900;
+    font-family: '黑体';
+    z-index: 10;
+}
+
+/*----------尾栏----------*/
+.img_feiji {
+    width: 300px;
+    margin: 20px auto;
+}

@@ -1,0 +1,65 @@
+
+.shouji {
+    height: 530px;
+    width: 296px;
+    /*border: 1px solid #cccccc;*/
+    position: absolute;
+    top: 95px;
+    left: 54px;
+    z-index: 100;
+}
+.shouji p{
+    margin-left: 0;
+    margin-top: 20px;
+}
+.lala{
+    height: 250px;
+    border-bottom: 1px dotted #000000;
+}
+
+.lala img{
+    width: 90px;
+    height: 120px;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.lala .p1 {
+    font-size: 12px;
+}
+p span {
+    font-size: 14px;
+    color: #9abbc8;
+}
+p .s2{
+    margin-left: 120px;
+}
+.main {
+    width: 280px;
+    height: 390px;
+    padding-left: 15px;
+    /*padding-bottom: 20px;*/
+    /*overflow-y: auto;*/
+    overflow: hidden;
+    position: relative;
+}
+.scroll {
+    width: 5px;
+    border-radius: 10%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #f9f9f9;
+}
+
+.bar {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #d2d2d2;
+    border-radius: 50px;
+    cursor: pointer;
+}

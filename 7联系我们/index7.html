@@ -1,0 +1,359 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>罗马风情婚纱摄影</title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/index7.css"/>
+    <!--引用百度地图API-->
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .iw_poi_title {
+            color: #CC5522;
+            font-size: 14px;
+            font-weight: bold;
+            overflow: hidden;
+            padding-right: 13px;
+            white-space: nowrap
+        }
+
+        .iw_poi_content {
+            font: 12px arial, sans-serif;
+            overflow: visible;
+            padding-top: 4px;
+            white-space: -moz-pre-wrap;
+            word-wrap: break-word
+        }
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+
+</head>
+<body>
+<!--顶部导航-->
+<div class="top clearfix">
+    <div class="top_nav_l fl">
+        <div class="logo fl">
+            <img src="images/logo.png" alt=""/>
+
+        </div>
+        <div class="bj fl " id="bj" >
+            <dl >
+                <dt  >北京
+                <a href="#"><img src="images/dot01.png" alt=""/></a>
+                </dt>
+                <dd class="d1 displayNone">北京</dd>
+                <dd class="d2 displayNone">三亚</dd>
+                <dd class="d3 displayNone">青岛</dd>
+            </dl>
+
+        </div>
+    </div>
+    <div class="top_nav_r fl">
+        <ul id="top_ul">
+            <li><a href="../1首页/index.html" target="blank"><span class="displayNone"></span><i></i>首页</a></li>
+            <li><a href="../2匠心作品/index.html" target="blank"><span class="displayNone"></span><i></i>27°匠心作品</a></li>
+            <li><a href="../3城市旅拍/myIndex.html" target="blank"><span class="displayNone"></span><i></i>27°城市旅拍</a></li>
+            <li><a href="../4限时活动页面/index.html" target="blank"><span class="displayNone"></span><i></i>限时活动</a></li>
+            <li><a href="../5爱心/index.html" target="blank"><span class="displayNone"></span><i></i>27°爱心客片</a></li>
+            <li><a href="../6关于我们/顾客评价.html" target="blank"><span class="displayNone"></span><i></i>关于我们</a></li>
+            <li class="last"><a href="../7联系我们/index7.html" target="blank"><span></span><i></i>联系我们</a></li>
+        </ul>
+        <div class="top_nav_bottom fl ">
+            <img src="images/wbwx.png" alt=""/><span id="wxewm"></span>
+            <img src="images/mao.png" alt=""/><span id="wbewm"></span>
+            <div class="nav_wxewm displayNone"></div>
+            <div class="nav_wbewm displayNone"></div>
+            <img src="images/zhifu.png" alt=""/>
+        </div>
+
+
+    </div>
+
+</div>
+<!--展示图片-->
+<div class="ad">
+    <div class="ml">
+        <a href="#"><img src="images/2017091904443029.jpg" alt=""/></a>
+    </div>
+
+</div>
+<!--地图-->
+<div class="map0">
+    <div class="w">
+        <div class="map1">
+            <p>27°罗马风情全国统一客户服务热线</p>
+
+            <p class="tell"></p>
+        </div>
+    </div>
+</div>
+<div class="map2">
+    <div class="w">
+        <div class="maplogo"><img src="images/maplogo.jpg" alt=""/></div>
+        <ul class="fl">
+            <li class="i1"><i></i>
+
+                <p>企业QQ<br/><span>400-0077-527</span></p></li>
+            <li class="i2"><i></i>
+
+                <p>服务号：bjlmfq <br/>订阅号：bjlmfqdyh</p></li>
+            <li class="i3">
+                <a href="http://weibo.com/p/1006061802252687/" title="新浪微博">
+                    <i></i>
+
+                    <p>新浪微博<br>http://weibo.com/p/1006061802252687/</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="map3">
+
+    <!--百度地图容器-->
+    <div style="width:1347px;height:900px;border:#ccc solid 1px;" id="dituContent"></div>
+    <div class="w">
+        <ul id="uu" class="fl">
+            <li class="zs">
+                <h4>27°罗马风情总店</h4>
+
+                <p>中国·北京市丰台区草桥康辛路甲1号</p>
+
+                <p>400-1827-527</p>
+                <span></span>
+            </li>
+            <li>
+                <h4>27°韩国名匠</h4>
+
+                <p>中国·北京市丰台区草桥康辛路甲2号</p>
+
+                <p>400-1827-527</p>
+                <span></span>
+            </li>
+            <li>
+                <h4>27°罗马风情海淀店</h4>
+
+                <p>中国·北京市海淀区科学院南路31号</p>
+
+                <p>010 62658331</p>
+                <span></span>
+            </li>
+            <li>
+                <h4> 27°罗马风情丰台店</h4>
+
+                <p>中国·北京市丰台区丰台镇幸福街2号</p>
+
+                <p>010 63839846</p>
+                <span></span>
+            </li>
+            <li>
+                <h4> 27°罗马风情东城店</h4>
+
+                <p>中国·北京市东城区东四十三条53号B座2楼</p>
+
+                <p>400-1827-527</p>
+                <span></span>
+            </li>
+            <li>
+                <h4>27°今天婚礼纪实影像</h4>
+
+                <p>中国·北京市丰台区草桥康辛路甲2号</p>
+
+                <p>400-1827-527</p>
+                <span></span>
+            </li>
+            <li>
+                <h4>27°今天致造型</h4>
+
+                <p>中国·北京市丰台区草桥康辛路甲1号</p>
+
+                <p>400-1827-527</p>
+                <span></span>
+            </li>
+            <li>
+                <h4>27°今天臻写真</h4>
+
+                <p>中国·北京市丰台区草桥康辛路甲2号</p>
+
+                <p>400-1827-527</p>
+                <span></span>
+            </li>
+            <li>
+                <h4> 27°市场合作</h4>
+
+                <p>中国·北京市丰台区草桥康辛路甲1号</p>
+
+                <p>010-57131416</p>
+                <span></span>
+            </li>
+            <li>
+                <h4>27°环球旅拍</h4>
+
+                <p>中国·三亚市三亚湾路海坡开发区海之韵别墅C2-3栋</p>
+
+                <p>400-032-1616</p>
+                <span></span>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="map4"></div>
+
+<!--尾栏-->
+<div class="bottom">
+    <div class="img_feiji w">
+        <img src="images/feiji.png" alt=""/>
+    </div>
+    <div class="bg"></div>
+    <div class="service w">
+        <div class="message">
+            <p>全国统一客户服务热线</p>
+
+            <p class="tel">400 1827 527</p>
+
+            <p class="work_time">Work time：AM08.30 ~ PM23.00</p>
+
+            <p>投诉经理电话：15652052727</p>
+
+            <p class="qq">企业QQ：400-0077-527</p>
+
+            <p class="place">中国 北京市丰台区草桥康辛路甲一号</p>
+
+            <p><a href="#">http://www.27lmfq.com/
+            </a></p>
+        </div>
+        <div class="bottom_img">
+            <img src="images/bot.png" alt=""/>
+        </div>
+        <div class="bottom_erweima">
+            <p class="saoma">快速扫描二维码</p>
+
+            <div class="erwm_l fl">
+                <img src="images/tmp_r13_c10.jpg" alt=""/>
+
+                <p>官方微博</p>
+                <i></i>
+            </div>
+            <div class="erwm_r fr">
+                <img src="images/tmp_r13_c12.jpg" alt=""/>
+
+                <p>官方微信</p>
+                <i></i>
+            </div>
+        </div>
+    </div>
+    <div class="copy ">
+        <p class="start">开始27°中国之旅</p>
+
+        <p>版权所有© 2011-2017 北京罗马风情婚纱摄影有限公司 京ICP备06016548号</p>
+
+        <p>Copyright © Bjlmfq photography</p>
+    </div>
+</div>
+
+<script src="js/common.js"></script>
+<script src="js/jquery-1.12.1.js"></script>
+<script src="js/jqindex7.js"></script>
+</body>
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap() {
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
+
+    //创建地图函数：
+    function createMap() {
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(116.3529, 39.846641);//定义一个中心点坐标
+        map.centerAndZoom(point, 16);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+
+    //地图事件设置函数：
+    function setMapEvent() {
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+//        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.disableDoubleClickZoom();//禁用鼠标双击放大
+        map.disableKeyboard();//禁用键盘上下左右键移动地图，默认禁用(可不写)
+    }
+
+    //地图控件添加函数：
+    function addMapControl() {
+    }
+
+    //标注点数组
+    var markerArr = [{
+        title: "27°罗马风情总店",
+        content: "地址：中国·北京市丰台区草桥康辛路甲1号<br/>联系电话：400-1827-527",
+        point: "116.354499|39.84527",
+        isOpen: 1,
+        icon: {w: 21, h: 21, l: 0, t: 0, x: 6, lb: 5}
+    }
+    ];
+    //创建marker
+    function addMarker() {
+        for (var i = 0; i < markerArr.length; i++) {
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0, p1);
+            var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point, {icon: iconImg});
+            var iw = createInfoWindow(i);
+            var label = new BMap.Label(json.title, {"offset": new BMap.Size(json.icon.lb - json.icon.x + 10, -20)});
+            marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                borderColor: "#808080",
+                color: "#333",
+                cursor: "pointer"
+            });
+
+            (function () {
+                var index = i;
+                var _iw = createInfoWindow(i);
+                var _marker = marker;
+                _marker.addEventListener("click", function () {
+                    this.openInfoWindow(_iw);
+                });
+                _iw.addEventListener("open", function () {
+                    _marker.getLabel().hide();
+                })
+                _iw.addEventListener("close", function () {
+                    _marker.getLabel().show();
+                })
+                label.addEventListener("click", function () {
+                    _marker.openInfoWindow(_iw);
+                })
+                if (!!json.isOpen) {
+                    label.hide();
+                    _marker.openInfoWindow(_iw);
+                }
+            })()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i) {
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>" + json.content + "</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json) {
+        var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w, json.h), {
+            imageOffset: new BMap.Size(-json.l, -json.t),
+            infoWindowOffset: new BMap.Size(json.lb + 5, 1),
+            offset: new BMap.Size(json.x, json.h)
+        })
+        return icon;
+    }
+
+    initMap();//创建和初始化地图
+</script>
+</html>

@@ -1,0 +1,825 @@
+ /*logo部分*/
+ .shouy {
+  height: 135px;
+  position: relative;
+  background-image: url("../images/tmp_r1_c2.png")
+
+
+ }
+ .logo {
+     position: absolute;
+     left: 40px;
+     top: 25px;
+     /*margin-right: 20px;*/
+ }
+ .uuone {
+     /*padding-bottom: 30px;*/
+
+     position: absolute;
+     top: 20px;
+     left: 323px;
+
+
+ }
+  .uuone li{
+  float: left;
+
+
+
+
+     font-size: 14px;
+     color: #FFFFFF;
+     height: 60px;
+      width: 120px;
+      line-height: 90px;
+      text-align: center;
+   }
+ /*.uuone li:hover {*/
+    /*border-bottom: 1px solid #FFFFFF;*/
+     /*padding-bottom: 6px;*/
+ /*}*/
+  .uuone .sy {
+
+     margin-right: 45px;
+      width: 60px;
+      margin-left: 30px;
+      border-bottom: 1px solid #FFFFFF;
+      padding-bottom: 5px;
+ }
+ .uuone .sy a:hover {
+     background: none;
+     color: #FFFFFF;
+ }
+ .uuone .sy img {
+     margin-left: 15px;
+ }
+  .uuone a {
+      display: inline-block;
+     color: #FFFFFF;
+     height: 60px;
+
+      line-height: 90px;
+
+ }
+
+
+.uuone li:nth-child(2) a:hover {
+    background: url("../images/lujing.png") 7px 15px no-repeat;
+}
+  .uuone a:hover {
+     color: RGB(173,134,71);
+     background: url("../images/lujing.png") 25px 15px no-repeat;
+
+ }
+  .shouy .line {
+      height: 1px;
+      width: 820px;
+      position: absolute;
+      bottom: 48px;
+      left: 458px;
+      background-color: gray;
+
+
+  }
+   .uutwo {
+     position: absolute;
+     right: 60px;
+       bottom: 10px;
+
+
+
+ }
+  .uutwo li {
+     float: left;
+     /*bottom: 13px;*/
+     margin-left: 18px;
+ }
+  .uuone span {
+     margin-right: 3px;
+ }
+ .uuone :nth-child(2) span {
+     color: RGB(129,204,17);
+ }
+   .uuone :nth-child(3) span{
+     color: RGB(255,153,0);
+ }
+   .uuone :nth-child(4) span {
+     color: RGB(0,153,255);
+ }
+  .uuone :nth-child(5) span{
+     color: RGB(255,0,0);
+ }
+   .uuone :nth-child(6) span {
+       color: RGB(255,255,51);
+   }
+   .uuone :nth-child(7)  span {
+     color: RGB(0,153,102);
+ }
+  .uuone :nth-child(8) span {
+     color: RGB(244,149,244);
+ }
+
+
+.border {
+    height: 6px;
+    background-color: RGB(176,135,70);
+}
+ /*banner*/
+ .banner {
+
+
+
+
+     margin: 0 auto;
+     height: 750px;
+     
+ }
+ .banner img {
+
+
+
+
+     height: 750px;
+     width: 100%;
+ }
+
+
+ /*heart*/
+ .heart {
+     height: 150px;
+     text-align: center;
+     /*padding-top: 56px;*/
+     margin-top: 30px;
+     position: relative;
+     /*overflow: hidden;*/
+ }
+.pic {
+
+    top: 45px;
+    left: 296px;
+    position: absolute;
+ }
+ .left_line, .right_line{
+     height: 1px;
+     background-color: RGB(153,153,153);
+     top: 70px;
+
+     width: 328px;
+     position: absolute;
+ }
+ .left_line {
+     left: 0;
+
+ }
+ .right_line {
+     right: 0;
+ }
+
+/*mask突出显示部分*/
+
+.mask {
+    width: 1176px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: #000;
+
+}
+
+
+
+
+
+
+ .mask ul li{
+     float: left;
+     position: relative;
+     transition: 0.5s;
+ }
+ .mask .last {
+
+     position: absolute;
+     top: 0;
+     right: 0;
+     /*right: 81px;*/
+ }
+ .mask li:first-child img {
+     height: 501px;
+     width: 294px;
+ }
+ .mask li:nth-child(2) img {
+     height: 501px;
+     width: 294px;
+ }
+ .mask li:nth-child(3) img {
+     height: 501px;
+     width: 294px;
+ }
+
+ .mask li:nth-child(4) img {
+     width: 882px;
+     height: 294px;
+ }
+ .mask li:last-child img {
+     height: 795px;
+     width: 294px;
+ }
+ .mask a:hover {
+     /*background-color: rgba(89,89,90, 0.5);*/
+     /*background: rgba(89,89,90, 0.5);*/
+ }
+
+
+
+
+
+/*works*/
+ .works {
+     height: 150px;
+     text-align: center;
+     /*padding-top: 56px;*/
+     margin-top: 30px;
+     position: relative;
+ }
+ .pic {
+
+     top: 45px;
+     left: 296px;
+     position: absolute;
+ }
+ .left_line, .right_line{
+     height: 1px;
+     background-color: RGB(153,153,153);
+     top: 70px;
+
+     width: 328px;
+     position: absolute;
+ }
+ .left_line {
+     left: 0;
+
+ }
+ .right_line {
+     right: 0;
+ }
+
+ /*moon陪你路过全世界*/
+ .moon {
+     margin-left: 100px;
+     overflow: hidden;
+     height: 500px;
+     margin-bottom: 20px;
+ }
+ .moon li{
+     float: left;
+     position: relative;
+     overflow: hidden;
+
+ }
+ .none {
+     position: absolute;
+     top: -450px;
+     left: 0;
+     width: 288px;
+     height: 450px;
+     opacity: 0;
+     transition: 0.2s;
+
+
+ }
+ /*.moon li:hover .none {*/
+
+     /*top: 0;*/
+     /*left: 0;*/
+     /*opacity: 1;*/
+     /*transition: all 0.3s;*/
+ /*}*/
+
+
+ .moon p {
+     font-size: 12px;
+     color: RGB(102,102,102);
+     margin-top: 6px;
+ }
+ .moon li:hover p {
+     color:  RGB(176,135,70);;
+ }
+
+
+
+
+
+
+     /*base*/
+ .base {
+     height: 150px;
+     text-align: center;
+     /*padding-top: 56px;*/
+     margin-top: 30px;
+     position: relative;
+ }
+ .pic {
+
+     top: 45px;
+     left: 296px;
+     position: absolute;
+ }
+ .left_line, .right_line{
+     height: 1px;
+     background-color: RGB(153,153,153);
+     top: 70px;
+
+     width: 328px;
+     position: absolute;
+ }
+ .left_line {
+     left: 0;
+
+ }
+ .right_line {
+     right: 0;
+ }
+
+
+
+
+
+
+ /*video*/
+.video {
+    position: relative;
+    margin-top: 10px;
+    overflow: hidden;
+
+
+
+}
+.zdc {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: pink;
+    opacity: 0.3;
+
+    z-index: 100;
+}
+.lll {
+    overflow: hidden;
+    width: 100%;
+}
+ .video .im1, .video .im2 {
+     position: absolute;
+ }
+ .video .im2 {
+     right: 100px;
+     top: -43px;
+     z-index: 1000;
+ }
+ .video .im1 {
+     bottom: -120px;
+     z-index: 1000;
+ }
+
+ /*kepian*/
+ .kepian {
+     height: 150px;
+     text-align: center;
+     /*padding-top: 56px;*/
+     margin-top: 30px;
+     position: relative;
+     overflow: hidden;
+ }
+ .pic {
+
+     top: 45px;
+     left: 296px;
+     position: absolute;
+ }
+ .left_line, .right_line{
+     height: 1px;
+     background-color: RGB(153,153,153);
+     top: 70px;
+
+     width: 328px;
+     position: absolute;
+ }
+ .left_line {
+     left: 0;
+
+ }
+ .right_line {
+     right: 0;
+ }
+
+
+
+
+
+ /*wedding*/
+ .wedding {
+     margin-left: 80px;
+     overflow: hidden;
+     /*position: relative;*/
+ }
+ .wedding li{
+    float: left;
+     margin-left: 10px;
+     /*height: 524px;*/
+     overflow: hidden;
+     position: relative;
+     margin-bottom: 25px;
+}
+ .wedding li .none {
+     position: absolute;
+     top: -450px;
+     left: 0;
+     width: 288px;
+     height: 450px;
+     opacity: 0;
+
+
+ }
+/*.wedding li:hover .none {*/
+
+     /*top: 0;*/
+     /*left: 0;*/
+     /*opacity: 1;*/
+     /*transition: all 0.3s;*/
+ /*}*/
+
+
+ .wedding h3 {
+     /*margin-bottom: 5px;*/
+     margin-top: 10px;
+ }
+ .wedding a:hover {
+     color:  RGB(176,135,70);
+ }
+
+
+
+/*baike*/
+ .baike {
+     height: 150px;
+     text-align: center;
+     /*padding-top: 56px;*/
+     margin-top: 45px;
+     position: relative;
+ }
+ .pic {
+
+     top: 45px;
+     left: 296px;
+     position: absolute;
+ }
+ .left_line, .right_line{
+     height: 1px;
+     background-color: RGB(153,153,153);
+     top: 70px;
+
+     width: 328px;
+     position: absolute;
+ }
+ .left_line {
+     left: 0;
+
+ }
+ .right_line {
+     right: 0;
+ }
+
+
+
+
+ /*shipin*/
+ .shipin {
+     height: 400px;
+     margin-left: 90px;
+     margin-top: -10px;
+
+ }
+.shipin ul{
+    height: 400px;
+    width: 370px;
+    float: left;
+    margin-right: 32px;
+    position: relative;
+}
+.shipin .left,.shipin .rig {
+    position: absolute;
+    margin-bottom: 16px;
+}
+ .shipin .left {
+     left: 0;
+     top: 0;
+ }
+ .shipin .rig {
+     right: 0;
+     top: 0;
+ }
+
+.shipin h1,.shipin p {
+    text-overflow: ellipsis;
+    /*white-space: nowrap;*/
+    margin-top: 16px;
+    color: RGB(153,153,153);
+}
+ .shipin h1 {
+     font-size: 27px;
+ }
+ .shipin .color:hover h1{
+     color: RGB(176,133,70);
+ }
+ .shipin p {
+     margin-bottom: 16px;
+     color: RGB(204,207,218);
+
+ }
+ .shipin .color:hover p {
+     color: RGB(153,153,153);
+ }
+ .shipin span {
+     color: RGB(153,153,153);
+ }
+
+
+ .koubei {
+     height: 150px;
+     text-align: center;
+     padding-top: -20px;
+     position: relative;
+ }
+ .pic {
+
+     top: 10px;
+     left: 296px;
+     position: absolute;
+ }
+ .left_line, .right_line{
+     height: 1px;
+     background-color: RGB(153,153,153);
+     top: 70px;
+
+     width: 328px;
+     position: absolute;
+ }
+ .left_line {
+     left: 0;
+
+ }
+ .right_line {
+     right: 0;
+ }
+
+
+
+ /*轮播图*/
+ .all{
+     height: 300px;
+
+     width: 1180px;
+     position: relative;
+     margin: 100px auto;
+
+ }
+ .screen{
+     height: 300px;
+     width: 1180px;
+
+     overflow: hidden;
+     position: relative;
+     /*margin: 0 auto;*/
+     margin-left: -25px;
+ }
+ .screen .qq {
+     width: 268px;
+ }
+ .screen li {
+     width: 268px;
+     height: 220px;
+     overflow: hidden;
+     float: left;
+     margin-left: 29px;
+     position: relative;
+
+ }
+ .screen ul {
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 3564px;
+     height: 300px;
+     /*overflow: hidden;*/
+ }
+
+ #arr span {
+     width: 70px;
+     height: 70px;
+     /*position: absolute;*/
+     /*left: -15px;*/
+     left: -50px;
+     top: 50%;
+     margin-top: -35px;
+ }
+ #arr #left {
+     position: absolute;
+     left: -85px;
+     top: 57px;
+     width: 104px;
+     height: 293px;
+     background: url("../images/shang.png");
+ }
+#arr #right {
+
+    position: absolute;
+
+    top: 57px;
+    right: -10px;
+    left: 1162px;
+    width: 104px;
+    height: 293px;
+    background: url("../images/xia.png");
+}
+ .screen span {
+     position: absolute;
+     width: 84px;
+     height: 84px;
+     border-radius: 50%;
+     border: 2px solid RGB(176,134,70);
+     top: 5px;
+     left: 92px;
+ }
+ .screen span img {
+     width: 80px;
+     height: 80px;
+     border-radius: 50%;
+ }
+ .screen h4 {
+     position: absolute;
+     top: 135px;
+     left: 23px;
+ }
+ .screen p {
+     position: absolute;
+     word-break: break-all;
+     top: 157px;
+     left: 23px;
+ }
+ .screen h4, .screen p {
+     color: RGB(0,0,0);
+ }
+ /*底部*/
+ .footer {
+     height: 800px;
+     margin-top: 0;
+ }
+ .footer .feiji {
+     margin-left: 575px;
+
+ }
+ .foot {
+     height: 300px;
+     /*background-color: RGB(69,69,69);*/
+     background-image: url("../images/bg.jpg");
+     margin-top: 22px;
+     position: relative;
+     clear: both;
+ }
+.foot .center {
+    /*margin-top: 10px;*/
+    left: 420px;
+    top: 25px;
+    position: absolute;
+}
+.foot .number {
+    margin-left: 80px;
+    margin-top: 56px;
+}
+ .foot .number .zi {
+     margin-left: 10px;
+     margin-top: -5px;
+ }
+ .foot .number .zi li {
+     font-size: 16px;
+     color: #FFFFFF;
+     margin-bottom: 13px;
+ }
+ .foot .number .zi li:nth-child(2) {
+     color: RGB(176,135,70);
+     font-size: 26px;
+ }
+ .foot .number .zi p {
+     font-size: 10px;
+ }
+ .foot .number .zi a {
+    color: #FFFFFF;
+ }
+ .foot .number .zi a:hover {
+      color: RGB(176,135,70);
+ }
+ .footer .ewm {
+     position: absolute;
+     right: 100px;
+     top: 58px;
+ }
+ .footer .ewm img {
+     width: 100px;
+     height: 100px;
+     margin-bottom: 5px;
+ }
+
+
+ .footer .ewm li {
+     float: left;
+     text-align: center;
+ }
+ .footer .ewm .saom img{
+     width: 20px;
+     height: 20px;
+     margin-right: 10px;
+
+ }
+ .footer .ewm .saom {
+     color: #FFFFFF;
+
+     font-size: 16px;
+
+
+
+
+ }
+ .footer .ewm li p {
+    font-size: 10px;
+     color: RGB(176,135,70);
+     margin-bottom: 5px;
+ }
+ .footer .ewm h4 {
+     font-size: 14px;
+     color: #FFFFFF;
+     margin-bottom: 5px;
+     /*margin-left: 50px;*/
+ }
+
+ .footer .ewm i img {
+     width: 22px;
+     height: 22px;
+
+
+ }
+ .footer .ewm ul i {
+     background: url("../images/wbwx.png");
+     width: 40px;
+     height: 20px;
+     display: inline-block;
+ }
+ .footer .ewm .one {
+     background-position: -180px 0;
+ }
+ .footer .ewm .two {
+
+     background-position: -129px 0;
+ }
+ .footer .start {
+     width: 226px;
+     height: 34px;
+     background-color: RGB(176,135,70);
+     margin-top: 160px;
+     margin-left: 560px;
+     border-radius: 16px;
+     text-align: center;
+     padding-top: 4px;
+     box-sizing: border-box;
+
+ }
+ .footer .start a {
+     font-size: 20px;
+     color: #FFFFFF;
+ }
+ .copyright {
+     margin-top: 32px;
+     /*margin-left: 400px;*/
+     text-align: center;
+
+ }
+ .copyright p {
+     font-size: 12px;
+     color: RGB(68,68,68);
+ }
+ .copyright span {
+     color: RGB(176,135,70);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

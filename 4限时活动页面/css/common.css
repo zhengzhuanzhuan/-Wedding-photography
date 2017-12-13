@@ -1,0 +1,81 @@
+﻿body, h1, h2, h3, h4, h5, ul, ol, dl, p, dt, dd {
+    margin: 0;
+    padding: 0;
+}
+i,em{
+    font-style: normal;
+}
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix {
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+/*版心*/
+.w {
+    width: 1180px;
+    margin: 0 auto;
+}
+.box_none{
+    display: none;
+}
+.fs10{
+    font-size:10px;
+}
+.fs12{
+    font-size:12px;
+}
+.fs14{
+    font-size:14px;
+}
+.fs16{
+    font-size:16px;
+}
+.fs18{
+    font-size:18px;
+}
+.fs20{
+    font-size:20px;
+}
+.fs23{
+    font-size:23px;
+}
+
+
+
+
+
+

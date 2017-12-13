@@ -1,0 +1,236 @@
+﻿/*顶部导航*/
+.nav {
+    height: 140px;
+    background: url("../images/tmp_r1_c2.png");
+}
+
+.nav_w {
+    width: 1260px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav .nav_w img {
+    margin-top: 25px;
+}
+
+.city_btn {
+    width: 56px;
+    height: 23px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 55px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.city_box {
+    width: 179px;
+    height: 33px;
+    padding-left: 1px;
+    border-radius: 3px;
+    box-shadow: 0 5px 5px 0 white;
+    background: #ffffff;
+    position: absolute;
+    top: 80px;
+    left: 315px;
+}
+
+.city_box a {
+    margin-top: 1px;
+    display: inline-block;
+    color: #666666;
+    font-size: 12px;
+    height: 31px;
+    width: 56px;
+    line-height: 31px;
+    text-align: center;
+}
+
+.city_btn span {
+    background: url("../images/dot01.png");
+    display: inline-block;
+    width: 7px;
+    height: 6px;
+}
+
+.nav .nav_ul {
+    margin-top: 20px;
+}
+.nav_ul_bg {
+    background: url("../images/nav.png") no-repeat;
+    width: 834px;
+    height: 54px;
+    margin-top: 35px;
+}
+
+.nav .nav_ul li {
+    display: inline-block;
+    text-align: center;
+    width: 119px;
+    font-size: 14px;
+    float: left;
+    height: 32px;
+    padding-top: 25px;
+    margin-top: -25px;
+    cursor: pointer;
+}
+
+.nav_wbwx {
+    position: absolute;
+    right: 170px;
+    top: 75px;
+}
+
+.nav_wb a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.nav_wx a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 45px;
+    bottom: 0;
+}
+
+.nav_tb {
+    position: absolute;
+    right: 120px;
+    top: 75px;
+}
+
+.nav_zfb {
+    position: absolute;
+    right: 5px;
+    top: 75px;
+}
+/*========================================================*/
+/*========================================================*/
+/*底部*/
+
+.footer {
+    height: 240px;
+    padding-top: 60px;
+    background: url("../images/bg.jpg");
+    color: white;
+}
+
+.footer_left {
+    padding-left: 25px;
+    background: url("../images/tb.png") no-repeat 0 5px;
+}
+
+.footer_left p:nth-child(2) {
+    font-size: 32px;
+    color: #B08746;
+}
+
+.footer_left p:nth-child(3) {
+    font-size: 12px;
+    color: #B08746;
+}
+
+.footer_left p:nth-child(5), .footer_left p:nth-child(6) {
+    margin-top: 20px;
+}
+
+.footer_left p:nth-child(7) {
+    margin-top: 10px;
+}
+
+.footer_left p:nth-child(7) > a:hover {
+    color: #B08746;
+}
+
+
+.footer_right > p {
+    margin-bottom: 10px;
+    padding-left: 40px;
+    background: url("../images/er.png") no-repeat 10px 3px;
+}
+
+.footer_right .erwm p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.erwm {
+    text-align: center;
+    margin-right: 128px;
+}
+
+.erwm p {
+    font-size: 10px;
+    color: #B08746;
+}
+
+.erwm span {
+    font-size: 14px;
+    color: #ffffff;
+}
+.erwm i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../images/wbwx.png") no-repeat -183px;
+}
+
+.footer .w {
+    position: relative;
+}
+
+.wxerwm {
+    margin-right: 0;
+    position: absolute;
+    right: 10px;
+}
+
+.wxerwm i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../images/wbwx.png") no-repeat -133px;
+}
+
+.footer .bot {
+    width: 1180px;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+
+.footer .bot img {
+    margin-top: -25px;
+}
+
+.footer .bot > a {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 224px;
+    height: 32px;
+    background: #B08746;
+    line-height: 32px;
+    border-radius: 16px;
+    font-size: 20px;
+}
+
+.footer .bot > p {
+    color: #000;
+    font-size: 12px;
+}
+
+.footer .bot > p a {
+    color: #B08746;
+}
+
